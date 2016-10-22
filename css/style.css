@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400);
+header {
+    position: relative;
+}
+
+header nav {
+    font-size: 120%;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 0 0.5em;
+    vertical-align: middle;
+}
+
+header a {
+    color: inherit;
+}
+
+body {
+    font: normal 100% Ubuntu, sans-serif;
+    margin: 0;
+    color: #555;
+}
+
+body > * {
+    width: 790px;
+    padding: 10px;
+    margin: 20px auto;
+    font-weight: 300;
+}
+
+a {
+    color: #09153D;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #533F81;
+    text-decoration: none;
+}
+
+h1 a {
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 300;
+    /*font-size: 1.5em;*/
+}
+
+ul {
+    list-style-type: disc;
+    padding: 0 1em;
+    font-weight: 300;
+}
+
+.circular {
+  border-radius: 50%;
+}
+
+.glyphicon {
+    font-size: 2em;
+}
+
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+img[data-src] {
+  opacity: 0;
+}
+
+.card {
+    padding-bottom: 10px;
+}
+
+.fill {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden
+}
+.fill img {
+    flex-shrink:0;
+    min-width:100%;
+    max-height:200px;
+}
+
+.quote {
+    line-height: 0.85;
+    font-weight: bold;
+    font-size: 90pt;
+    padding-right: 10px;
+    vertical-align: -1cm;
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 800px) and (-webkit-min-device-pixel-ratio: 2){
+    span {
+        font-size: 2em;
+    }
+}
