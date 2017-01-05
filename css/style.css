@@ -38,6 +38,10 @@ body > * {
     font-weight: 300;
 }
 
+p {
+    line-height: 130%;
+}
+
 a {
     color: #4B77BE;
     text-decoration: none;
@@ -103,6 +107,11 @@ img[data-src] {
     font-size: 90pt;
     padding-right: 10px;
     vertical-align: -1cm;
+}
+
+.opaque {
+    opacity:0.3; 
+    filter:alpha(opacity=30);
 }
 
 @media only screen and (min-device-width: 200px) and (max-device-width: 800px) and (-webkit-min-device-pixel-ratio: 2){
