@@ -114,6 +114,10 @@ img[data-src] {
     vertical-align: -1cm;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .opaque {
     opacity:0.3; 
     filter:alpha(opacity=30);
