@@ -43,12 +43,17 @@ p {
 }
 
 a {
-    color: #4B77BE;
+    color: #913D88;
     text-decoration: none;
 }
 
 a:hover {
-    color: #3498db;
+    color: #BE90D4;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    color: #674172;
     text-decoration: none;
 }
 
