@@ -123,8 +123,17 @@ img[data-src] {
     filter:alpha(opacity=30);
 }
 
-@media only screen and (min-device-width: 200px) and (max-device-width: 800px) and (-webkit-min-device-pixel-ratio: 2){
-    span {
+@media only screen and (min-device-width: 200px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 2){
+    span, tbody, ul {
         font-size: 2em;
+    }
+    .homebutton {
+        padding-top:30px;
+    }
+}
+
+@media only screen and (min-device-width: 700px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 2){
+    span, tbody, ul {
+        font-size: 1.5em;
     }
 }
